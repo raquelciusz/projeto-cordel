@@ -52,7 +52,6 @@ header p > a:hover {
 
 main {
     font-family: 'Sriracha', cursive;
-    font-size: 53px;
     font-weight: normal;
 }
 
@@ -60,18 +59,24 @@ section {
     padding: 60px 0px 50px 30px;
 }
 
+section > p {
+    font-size: 3vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
 #segunda {
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
 }
 
 #segunda > p {
     background-color: rgb(2, 21, 2);
-    max-width: 650px;
-    padding-left: 20px;
-    color: white;
     display: inline-block;
+    padding: 20px;
+    color: white;
 }
 
 #quarta {
@@ -82,9 +87,9 @@ section {
 
 #quarta > p {
     background-color: #2f332db7;
-    max-width: 650px;
-    padding-left: 20px;
+    padding: 20px;
     color: white;
+    display: inline-block;
 }
 
 footer {
@@ -97,13 +102,13 @@ footer > p {
     text-align: center;
     padding: 10px;
     font-weight: lighter;
+    font-size: 1em;
 }
 
 footer > p > a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    
 }
 
 footer > p > a:hover {
